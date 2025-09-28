@@ -1,0 +1,11 @@
+﻿<Project>
+	<PropertyGroup>
+		<Product_RootNameSpace>TestRootName</Product_RootNameSpace>
+		
+		<RootNamespace>$(MSBuildProjectName)</RootNamespace>
+		<AssemblyName >$(Product_RootNameSpace).$(MSBuildProjectName)</AssemblyName>
+
+		<LangVersion>9</LangVersion>
+		<!--<IncludePackageReferencesDuringMarkupCompilation>false</IncludePackageReferencesDuringMarkupCompilation>-->		
+	</PropertyGroup>
+</Project>
